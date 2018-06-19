@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 import com.el.ally.wimp.models.Movie;
 
 @Repository
-public interface MovieRepository extends JpaRepository<Movie, Long>{
+public interface MovieRepository extends JpaRepository<Movie, Integer>{
 
 }
