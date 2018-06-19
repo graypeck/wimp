@@ -17,7 +17,7 @@ import com.el.ally.wimp.repositories.ActorRepository;
 import com.el.ally.wimp.repositories.MovieRepository;
 
 @RestController
-@RequestMapping
+@RequestMapping("/api/Actor")
 public class ActorAPIController {
 	
 	private ActorRepository actorRepository;
